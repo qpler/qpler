@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Francisco Garrido Matta
+tagline:          ''
+description:      ''
+url:              flgarrid.github.io
+baseurl:          /
+
+author:
+  name:           'Francisco Garrido Matta'
+  url:            https://twitter.com/flgarrid
+
+paginate:         5
+
+# Custom vars
+version:          1.0
+
+github:
+  repo:           https://github.com/flgarrid/flgarrid
