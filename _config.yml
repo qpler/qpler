@@ -7,10 +7,10 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Francisco Garrido Matta
+title:            qpler
 tagline:          ''
 description:      ''
-url:              flgarrid.github.io
+url:              qpler.github.io
 baseurl:          /
 
 author:
@@ -21,6 +21,3 @@ paginate:         5
 
 # Custom vars
 version:          1.0
-
-github:
-  repo:           https://github.com/flgarrid/flgarrid
