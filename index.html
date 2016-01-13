@@ -6,21 +6,12 @@ title: Home
     <div class="jumbotron hero">
         <h1 class="text-center">Breaking paradigms to achieve breakthrough results</h1>
     </div>
-    <div class="posts">
-    {% for post in paginator.posts %}
-    <div class="post">
-        <h1 class="post-title">
-        <a href="{{ post.url }}">
-            {{ post.title }}
-        </a>
-        </h1>
-
-        <span class="post-date">{{ post.date | date_to_string }}</span>
-
-        {{ post.content }}
-    </div>
-    {% endfor %}
-    </div>
 </div>
-<div class="container">
+<div class="container" style="padding:30px 0; border-top: 1px solid #ccc8c3;">
+ <blockquote>
+  <p>Buscamos mejorar distintos ambitos del pais a traves de la tecnologia.</p>
+</blockquote>
+<blockquote class="blockquote-reverse">
+  <p><a href="{{blog_url}}/2016/01/11/ver-el-cielo-por-nuestra-rendija/">Ven a ver el cielo desde nuestra rendija.</a></p>
+</blockquote>
 </div>
