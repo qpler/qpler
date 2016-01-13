@@ -10,12 +10,11 @@ relative_permalinks: true
 title:            qpler
 tagline:          ''
 description:      ''
-url:              qpler.github.io
-baseurl:          /
+url:              http://www.qpler.com
 
 author:
-  name:           'Francisco Garrido Matta'
-  url:            https://twitter.com/flgarrid
+  name:           'qpler'
+  url:            http://www.qpler.com
 
 paginate:         5
 
