@@ -1,23 +1,42 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+name: qpler
+description: qpler - Technology and Research
+meta_description: "qpler - Technology and Research"
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+aboutPage: true
 
-# Setup
-title:            qpler
-tagline:          ''
-description:      ''
-url:              qpler.github.io
-baseurl:          /
+markdown: redcarpet
+highlighter: pygments
 
-author:
-  name:           'Francisco Garrido Matta'
-  url:            https://twitter.com/flgarrid
+paginate: 20
+baseurl: /
+domain_name: 'http://www.qpler.com'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
 
-paginate:         5
+# Details for the RSS feed generator
+url:            'http://www.qpler.com'
+author:         'qpler'
+authorTwitter:  '@qpler'
 
-# Custom vars
-version:          1.0
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
