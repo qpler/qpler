@@ -6675,6 +6675,7 @@ body {
   overflow: hidden;
   position: relative;
   min-height: 100%;
+  height:100px;
 }
 .cover h1,
 .cover .h1 {
