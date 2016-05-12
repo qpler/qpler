@@ -6808,7 +6808,6 @@ footer {
 	overflow:hidden;
 }
 svg{
-	position: absolute;
     margin-top: -350px;
 	z-index:1;
 }
