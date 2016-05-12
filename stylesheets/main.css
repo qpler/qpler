@@ -3391,6 +3391,7 @@ input[type="button"].btn-block {
   display: none;
 }
 .collapse.in {
+	background-color:rgba(0,0,0,0.5);
   display: block;
 }
 tr.collapse.in {
@@ -4090,7 +4091,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-collapse.in {
   overflow-y: auto;
-  background-color:rgba(0,0,0,0.5);
 }
 @media (min-width: 768px) {
   .navbar-collapse {
