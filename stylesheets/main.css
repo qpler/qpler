@@ -6808,7 +6808,7 @@ footer {
 	overflow:hidden;
 }
 svg{
-    margin-top: -350px;
+    margin-top: 0;
 	z-index:1;
 }
 .section.team{
